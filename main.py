@@ -18,8 +18,8 @@ if nums:
 if syms:
     all += symbols
 
-lenght = 50
-amount = 100
+lenght = 20
+amount = 1
 
 for x in range(amount):
     password = "".join(random.sample(all, lenght))
